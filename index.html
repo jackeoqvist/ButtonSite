@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="sv">
 	<head>
 		<title>Button Site</title>
 		<!-- Bootstrap an Jquery -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="UTF-8">
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
@@ -10,12 +12,21 @@
 		<script src="knapp.js" type="text/javascript"></script>
 		
 		<link rel="stylesheet" type="text/css" href="style.css">
+
 	</head>
 
 	<body>
 		<div class="container" id="button">
-			<button onclick="knapp()" class="btn btn-large btn-primary btn-lg" type="button">I Dare You!</button>
+			<button onclick="knapp()" class="btn btn-large btn-primary btn-lg" type="button" data-toggle="tooltip" data-placement="top" title="Are you sure?">I Dare You!</button>
+			
 			<div id="demo"></div>
 		</div>
+
+
+
+
+
+		<script>$(function () {$('[data-toggle="tooltip"]').tooltip()})</script>
+		<script src="http://maps.googleapis.com/maps/api/js"></script>
 	</body>
 <html>
