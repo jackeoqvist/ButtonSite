@@ -3,17 +3,19 @@
 	<head>
 		<title>Button Site</title>
 		<!-- Bootstrap an Jquery -->
-		
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
+		<script src="knapp.js" type="text/javascript"></script>
+		
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 
 	<body>
 		<div class="container" id="button">
-			<button class="btn btn-large btn-primary btn-lg" type="button">I Dare You!</button>
+			<button onclick="knapp()" class="btn btn-large btn-primary btn-lg" type="button">I Dare You!</button>
+			<div id="demo"></div>
 		</div>
 	</body>
 <html>
