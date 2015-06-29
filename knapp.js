@@ -112,6 +112,12 @@ var knapp = function(){
 			var img = document.createElement('img');
 			img.src = 'http://images4.fanpop.com/image/photos/22400000/Random-Gif-random-22481623-474-268.gif';
   			div.appendChild(img);
+		},
+
+		function() {
+			var gravity = document.createElement("script");
+			gravity.src = "http://gravityscript.googlecode.com/svn/trunk/gravityscript.js";
+			document.body.appendChild(gravity);
 		}
 
 		];
