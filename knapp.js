@@ -38,6 +38,16 @@ var knapp = function(){
 			iframe.height = 500;
 			iframe.allowfullscreen = true;
 			div.appendChild(iframe);
+		},
+
+		function() {
+			var div = document.getElementById("demo").innerHTML = "";
+			window.open("http://www.partridgegetslucky.com/")
+		},
+
+		function() {
+			var div = document.getElementById("demo").innerHTML = "";
+			window.open("http://eelslap.com/")
 		}
 
 
