@@ -1,6 +1,6 @@
 var knapp = function(){
 	
-	document.getElementById("demo").innerHTML = "Greattastic"
+	
 
 	var funktioner = 
 		[function() {
