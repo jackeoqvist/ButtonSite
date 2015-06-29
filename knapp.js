@@ -19,6 +19,20 @@ var knapp = function(){
 			img.src = 'http://ak-hdl.buzzfed.com/static/2013-10/enhanced/webdr01/30/12/anigif_enhanced-buzz-14674-1383151956-4.gif';
   			div.appendChild(img);
 		},
+			function() {
+			document.getElementById("demo").innerHTML = "";
+			var div = document.getElementById("demo");
+			var img = document.createElement('img');
+			img.src = 'bilder/3.gif';
+  			div.appendChild(img);
+	},
+  		function() {
+			document.getElementById("demo").innerHTML = "";
+			var div = document.getElementById("demo");
+			var img = document.createElement('img');
+			img.src = 'bilder/72.gif';
+  			div.appendChild(img);
+  		},
 
 		function() {
 			document.getElementById("demo").innerHTML = "";
@@ -76,3 +90,4 @@ var knapp = function(){
 		var i = Math.floor(Math.random() * funktioner.length);
 		funktioner[i]();
 };
+	
