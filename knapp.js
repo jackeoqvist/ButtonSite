@@ -4,15 +4,7 @@ var knapp = function(){
 
 	var funktioner = 
 		[function() {
-			document.getElementById("demo").innerHTML = "Greattastic";
-			
-		},
-		function() {
 			document.getElementById("demo").innerHTML = "Awesomeness";
-			
-		},
-		function() {
-			document.getElementById("demo").innerHTML = "Crazyness";
 			
 		},
 		
