@@ -32,15 +32,6 @@ var knapp = function(){
 			div.appendChild(iframe);
 		},
 
-		function() {
-			var div = document.getElementById("demo").innerHTML = "";
-			window.open("http://www.partridgegetslucky.com/")
-		},
-
-		function() {
-			var div = document.getElementById("demo").innerHTML = "";
-			window.open("http://eelslap.com/")
-		},
 		
 		function() {
 			document.getElementById("demo").innerHTML = "";
@@ -48,6 +39,30 @@ var knapp = function(){
 			var iframe = document.createElement('iframe')
 	
 			iframe.src = "https://www.youtube.com/embed/RkBm9NjUKbY?autoplay=1";
+			iframe.width = 500;
+			iframe.height = 500;
+			iframe.allowfullscreen = true;
+			div.appendChild(iframe);
+		},
+
+		function() {
+			document.getElementById("demo").innerHTML = "";
+			var div = document.getElementById("demo")
+			var iframe = document.createElement('iframe')
+	
+			iframe.src = "http://eelslap.com/";
+			iframe.width = 500;
+			iframe.height = 500;
+			iframe.allowfullscreen = true;
+			div.appendChild(iframe);
+		},
+
+		function() {
+			document.getElementById("demo").innerHTML = "";
+			var div = document.getElementById("demo")
+			var iframe = document.createElement('iframe')
+	
+			iframe.src = "http://www.partridgegetslucky.com/";
 			iframe.width = 500;
 			iframe.height = 500;
 			iframe.allowfullscreen = true;
