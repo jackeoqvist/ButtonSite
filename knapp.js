@@ -118,6 +118,18 @@ var knapp = function(){
 			var gravity = document.createElement("script");
 			gravity.src = "http://gravityscript.googlecode.com/svn/trunk/gravityscript.js";
 			document.body.appendChild(gravity);
+		},
+
+		function() {
+			document.getElementById("demo").innerHTML = "";
+			var div = document.getElementById("demo")
+			var iframe = document.createElement('iframe')
+	
+			iframe.src = "http://www.riddlydiddly.com/";
+			iframe.width = 500;
+			iframe.height = 500;
+			iframe.allowfullscreen = true;
+			div.appendChild(iframe);
 		}
 
 		];
