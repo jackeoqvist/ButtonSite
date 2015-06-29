@@ -81,9 +81,21 @@ var knapp = function(){
 			iframe.height = 500;
 			iframe.allowfullscreen = true;
 			div.appendChild(iframe);
+		},
+
+
+
+		function() {
+			document.getElementById("demo").innerHTML = "";
+			var div = document.getElementById("demo")
+			var iframe = document.createElement('iframe')
+	
+			iframe.src = "https://www.youtube.com/embed/X16G2hsVI9w?autoplay=1";
+			iframe.width = 500;
+			iframe.height = 500;
+			iframe.allowfullscreen = true;
+			div.appendChild(iframe);
 		}
-
-
 
 		];
 
