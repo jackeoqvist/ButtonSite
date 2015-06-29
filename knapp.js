@@ -12,6 +12,7 @@ var knapp = function(){
 				window.alert("Hello to you sir!")
 			}, */
 
+			/*gif*/
 		function() {
 			document.getElementById("demo").innerHTML = "";
 			var div = document.getElementById("demo");
@@ -95,6 +96,22 @@ var knapp = function(){
 			iframe.height = 500;
 			iframe.allowfullscreen = true;
 			div.appendChild(iframe);
+		},
+
+		function() {
+			document.getElementById("demo").innerHTML = "";
+			var div = document.getElementById("demo");
+			var img = document.createElement('img');
+			img.src = 'http://i.kinja-img.com/gawker-media/image/upload/s--X83WpYxL--/c_fit,fl_progressive,q_80,w_320/193t2cgbq0wmmgif.gif';
+  			div.appendChild(img);
+		},
+
+		function() {
+			document.getElementById("demo").innerHTML = "";
+			var div = document.getElementById("demo");
+			var img = document.createElement('img');
+			img.src = 'http://images4.fanpop.com/image/photos/22400000/Random-Gif-random-22481623-474-268.gif';
+  			div.appendChild(img);
 		}
 
 		];
