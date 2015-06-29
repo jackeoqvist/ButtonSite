@@ -48,6 +48,18 @@ var knapp = function(){
 		function() {
 			var div = document.getElementById("demo").innerHTML = "";
 			window.open("http://eelslap.com/")
+		},
+		
+		function() {
+			document.getElementById("demo").innerHTML = "";
+			var div = document.getElementById("demo")
+			var iframe = document.createElement('iframe')
+	
+			iframe.src = "https://www.youtube.com/embed/RkBm9NjUKbY?autoplay=1";
+			iframe.width = 500;
+			iframe.height = 500;
+			iframe.allowfullscreen = true;
+			div.appendChild(iframe);
 		}
 
 
