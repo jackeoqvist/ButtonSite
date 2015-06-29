@@ -21,9 +21,9 @@ var knapp = function(){
 		},
 
 		function() {
+			document.getElementById("demo").innerHTML = "";
 			var div = document.getElementById("demo");
 			var img = document.createElement('img');
-
 			img.src = 'http://ak-hdl.buzzfed.com/static/2013-10/enhanced/webdr01/30/12/anigif_enhanced-buzz-14674-1383151956-4.gif';
   			div.appendChild(img);
 		}
