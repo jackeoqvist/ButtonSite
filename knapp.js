@@ -137,7 +137,7 @@ var knapp = function(){
 			var div = document.getElementById("demo")
 			var iframe = document.createElement('iframe')
 	
-			iframe.src = "https://www.youtube.com/embed/09m0B8RRiEE";
+			iframe.src = "https://www.youtube.com/embed/09m0B8RRiEE?autoplay=1";
 			iframe.width = 500;
 			iframe.height = 500;
 			iframe.allowfullscreen = true;
