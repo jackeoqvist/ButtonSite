@@ -72,8 +72,8 @@ var knapp = function(){
 			var iframe = document.createElement('iframe')
 	
 			iframe.src = "http://www.partridgegetslucky.com/";
-			iframe.width = 500;
-			iframe.height = 500;
+			iframe.width = 600;
+			iframe.height = 600;
 			iframe.allowfullscreen = true;
 			div.appendChild(iframe);
 		},
@@ -127,6 +127,19 @@ var knapp = function(){
 			iframe.src = "https://www.youtube.com/embed/09m0B8RRiEE?autoplay=1";
 			iframe.width = 500;
 			iframe.height = 500;
+			iframe.allowfullscreen = true;
+			div.appendChild(iframe);
+		},
+
+
+		function() {
+			document.getElementById("demo").innerHTML = "";
+			var div = document.getElementById("demo")
+			var iframe = document.createElement('iframe')
+	
+			iframe.src = "http://www.sanger.dk/";
+			iframe.width = 600;
+			iframe.height = 600;
 			iframe.allowfullscreen = true;
 			div.appendChild(iframe);
 		}
