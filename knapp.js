@@ -147,7 +147,7 @@ var knapp = function(){
 	});
 
 	
-	//Prompt Eeaster Egg code
+	//Prompt Eeaster Egg code Keycode = HOME
 	document.addEventListener('keydown', function(event) {
 	    if(event.keyCode == 36) {
 	        var answer = prompt("Type something!")
@@ -157,5 +157,19 @@ var knapp = function(){
 				gravity.src = "http://gravityscript.googlecode.com/svn/trunk/gravityscript.js";
 				document.body.appendChild(gravity);
 	        };
+
+	        if (answer === "tth") {
+	        	document.getElementById("swf").innerHTML = "";
+				var div = document.getElementById("swf")
+				var iframe = document.createElement('iframe')
+		
+				iframe.src = "tth.swf";
+				iframe.width = 800;
+				iframe.height = 600;
+				iframe.allowfullscreen = true;
+				div.appendChild(iframe);
+	        }
 	    }
 	});
+
+	
