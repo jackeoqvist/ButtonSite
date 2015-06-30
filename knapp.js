@@ -173,3 +173,56 @@ var knapp = function(){
 	});
 
 	
+	//random background color
+	function setbackground() {
+	    window.setTimeout( "setbackground()", 10000000); //  milliseconds delay
+
+	    var index = Math.round(Math.random() * 9);
+
+	    var ColorValue = "FFFFFF"; // default color - white (index = 0)
+
+	    if(index == 1)
+	        ColorValue = "079DFF"; 
+	    if(index == 2)
+	        ColorValue = "3CFF3B"; 
+	    if(index == 3)
+	        ColorValue = "FFCE20"; 
+	    if(index == 4)
+	        ColorValue = "FF9135"; 
+	    if(index == 5)
+	        ColorValue = "E049FF"; 
+	    if(index == 6)
+	        ColorValue = "6257FF"; 
+	    if(index == 7)
+	       ColorValue = "FF00F0"; 
+	    if(index == 8)
+	        ColorValue = "3366FF"; 
+	   if(index == 9)
+	        ColorValue = "CCCCCC"; 
+
+	   document.getElementsByTagName("body")[0].style.backgroundColor = "#" + ColorValue;
+
+		}
+
+		//Random title color
+		function setbackgroundTitle()
+		{
+		    window.setTimeout( "setbackgroundTitle()", 600); //  milliseconds delay
+
+		    var index = Math.round(Math.random() * 4);
+
+		    var ColorValue = "FFFFFF"; // default color - white (index = 0)
+
+		    if(index == 1)
+		        ColorValue = "66FF33"; 
+		    if(index == 2)
+		        ColorValue = "FF0000"; 
+		    if(index == 3)
+		        ColorValue = "FF00FF"; 
+		    if(index == 4)
+		        ColorValue = "0000FF"; 
+
+
+		    document.getElementById("title")[0].style.backgroundColor = "#" + ColorValue;
+
+		}
