@@ -171,7 +171,7 @@ var knapp = function(){
 				document.body.appendChild(gravity);
 	        };
 
-	        if (answer === "tth") {
+	        if (answer === "tta") {
 	        	document.getElementById("swf").innerHTML = "";
 				var div = document.getElementById("swf")
 				var iframe = document.createElement('iframe')
